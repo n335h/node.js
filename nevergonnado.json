@@ -1,0 +1,12 @@
+[
+	{
+		"item": "Learn React",
+		"done": true,
+		"why": "React is a popular front-end framework"
+	},
+	{
+		"item": "Learn tailwind",
+		"done": false,
+		"why": "Tailwind is a popular CSS framework"
+	}
+]

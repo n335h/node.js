@@ -6,13 +6,15 @@
   "type": "module",
   "scripts": {
     "test": "jest --detectOpenHandles",
-    "start": "node --experimental-modules app.js"
+    "start": "node --experimental-modules app.js",
+    "save": "node --experimental-modules saveToJson.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "write-json-file": "^5.0.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.23.5",
